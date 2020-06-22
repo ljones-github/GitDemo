@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="YugiohSuite">
+  <test thread-count="5" name="AssortedTests">
+    <classes>
+      <class name="Yugioh.AppiumTest"/>
+      <class name="Yugioh.SeleniumTest"/>
+      <class name="Yugioh.RestApiTest"/>
+    </classes>
+  </test> <!-- AssortedTests -->
+</suite> <!-- YugiohSuite -->
